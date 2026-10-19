@@ -1,0 +1,7 @@
+dataset: AI_A2_2526972.csv
+sha256: a05f4763ec64a6967d3bd49a679c6ae351d143bb1ffe5827fe99e685a66d4474
+rows_raw: 245
+rows_clean: 242
+seed: 6972
+student_id: ug2526972@ines.ac.rw
+verification_code: AI-A2-6972

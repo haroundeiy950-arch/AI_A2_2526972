@@ -1,0 +1,53 @@
+{
+  "task": "regression",
+  "target": "yield_tons",
+  "verification_code": "AI-A2-6972",
+  "seed": 6972,
+  "n_train": 193,
+  "n_test": 49,
+  "baseline": {
+    "mae": 2.6024,
+    "rmse": 3.1208,
+    "r2": -0.0005,
+    "model": "DummyRegressor(mean)"
+  },
+  "candidates": {
+    "linear_regression": {
+      "mae": 0.895,
+      "rmse": 1.1486,
+      "r2": 0.8645,
+      "model": "linear_regression"
+    },
+    "random_forest": {
+      "mae": 1.1654,
+      "rmse": 1.4792,
+      "r2": 0.7752,
+      "model": "random_forest"
+    }
+  },
+  "all_models": {
+    "mean_baseline": {
+      "mae": 2.6024,
+      "rmse": 3.1208,
+      "r2": -0.0005
+    },
+    "linear_regression": {
+      "mae": 0.895,
+      "rmse": 1.1486,
+      "r2": 0.8645
+    },
+    "random_forest": {
+      "mae": 1.1654,
+      "rmse": 1.4792,
+      "r2": 0.7752
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "Selected by lowest test MAE among all evaluated models: linear_regression MAE=0.895 vs random_forest MAE=1.1654 (baseline MAE=2.6024). Test set has 49 rows, split with random_state=6972.",
+  "metric_notes": {
+    "mae": "mean absolute error in tons, lower is better",
+    "rmse": "root mean squared error in tons, lower is better",
+    "r2": "coefficient of determination on the held-out test set"
+  },
+  "dataset_sha256": "a05f4763ec64a6967d3bd49a679c6ae351d143bb1ffe5827fe99e685a66d4474"
+}

@@ -1,0 +1,24 @@
+{
+  "verification_code": "AI-A2-6972",
+  "seed": 6972,
+  "full_name": "Haroun Mohammed Arbab Yousef",
+  "registration_number": "25/26972",
+  "student_id": "ug2526972@ines.ac.rw",
+  "regression_model": "linear_regression",
+  "classification_model": "logistic_regression",
+  "selected_k": 2,
+  "silhouette": 0.1573,
+  "feature_columns": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support"
+  ],
+  "dataset_sha256": "a05f4763ec64a6967d3bd49a679c6ae351d143bb1ffe5827fe99e685a66d4474",
+  "n_train": 193,
+  "n_test": 49,
+  "trained_utc": "2026-10-19T17:44:58+00:00"
+}

@@ -1,0 +1,119 @@
+{
+  "seed": 6972,
+  "verification_code": "AI-A2-6972",
+  "rows_raw": 245,
+  "columns": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support",
+    "yield_tons",
+    "high_risk"
+  ],
+  "missing_values": {
+    "soil_moisture_pct": 12,
+    "fertilizer_kg": 12
+  },
+  "duplicates": {
+    "duplicate_rows": 3,
+    "row_positions": [
+      242,
+      243,
+      244
+    ]
+  },
+  "expected_missing": {
+    "soil_moisture_pct": 12,
+    "fertilizer_kg": 12
+  },
+  "expected_duplicates": 3,
+  "range_limits": {
+    "rainfall_mm": [
+      600.0,
+      1400.0
+    ],
+    "avg_temp_c": [
+      12.0,
+      26.0
+    ],
+    "soil_moisture_pct": [
+      20.0,
+      80.0
+    ],
+    "fertilizer_kg": [
+      0.0,
+      250.0
+    ],
+    "field_size_ha": [
+      0.2,
+      4.0
+    ]
+  },
+  "allowed_values": {
+    "season": [
+      "A",
+      "B"
+    ],
+    "cooperative_support": [
+      0,
+      1
+    ],
+    "high_risk": [
+      0,
+      1
+    ]
+  },
+  "rows_clean": 242,
+  "target_leakage_check": {
+    "classification_features": [
+      "rainfall_mm",
+      "avg_temp_c",
+      "soil_moisture_pct",
+      "fertilizer_kg",
+      "field_size_ha",
+      "season",
+      "cooperative_support"
+    ],
+    "excluded_target_columns": [
+      "yield_tons",
+      "high_risk"
+    ],
+    "passed": true
+  },
+  "status": "passed",
+  "defects_injected": {
+    "soil_moisture_pct": [
+      5,
+      10,
+      51,
+      53,
+      58,
+      75,
+      88,
+      151,
+      175,
+      197,
+      209,
+      211
+    ],
+    "fertilizer_kg": [
+      46,
+      87,
+      93,
+      147,
+      155,
+      162,
+      166,
+      200,
+      202,
+      222,
+      230,
+      231
+    ],
+    "duplicates_appended": 3
+  },
+  "csv_sha256": "a05f4763ec64a6967d3bd49a679c6ae351d143bb1ffe5827fe99e685a66d4474"
+}
