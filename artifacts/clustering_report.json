@@ -37,7 +37,7 @@
         "cooperative_support": 0.0
       },
       "dominant_season": "A",
-      "profile": "Cluster 0 (A-leaning farms) has; the highest rainfall_mm (1015.53), soil_moisture_pct (52.55), fertilizer_kg (137.38), field_size_ha (2.15) among all clusters; the lowest avg_temp_c (19.12), cooperative_support (0.00) among all clusters; its strongest difference is avg_temp_c=19.12 (about 0.7 standard deviations from the overall mean)."
+      "profile": "Cluster 0 (A-leaning farms):; the highest rainfall_mm (1015.53), soil_moisture_pct (52.55), fertilizer_kg (137.38), field_size_ha (2.15) among all clusters; the lowest avg_temp_c (19.12), cooperative_support (0.00) among all clusters; its strongest difference is avg_temp_c=19.12 (about 0.7 standard deviations from the overall mean)."
     },
     {
       "cluster": 1,
@@ -52,9 +52,9 @@
         "cooperative_support": 1.0
       },
       "dominant_season": "A",
-      "profile": "Cluster 1 (A-leaning farms) has; the highest avg_temp_c (19.13), cooperative_support (1.00) among all clusters; the lowest rainfall_mm (994.67), soil_moisture_pct (48.59), fertilizer_kg (124.99), field_size_ha (2.05) among all clusters; its strongest difference is rainfall_mm=994.67 (about 0.7 standard deviations from the overall mean)."
+      "profile": "Cluster 1 (A-leaning farms):; the highest avg_temp_c (19.13), cooperative_support (1.00) among all clusters; the lowest rainfall_mm (994.67), soil_moisture_pct (48.59), fertilizer_kg (124.99), field_size_ha (2.05) among all clusters; its strongest difference is rainfall_mm=994.67 (about 0.7 standard deviations from the overall mean)."
     }
   ],
-  "interpretation": "Silhouette scores -> K=2 (0.1573), K=3 (0.1348), K=4 (0.1431), K=5 (0.1395), K=6 (0.1396). Selected K=2. C0: Cluster 0 (A-leaning farms) has; the highest rainfall_mm (1015.53), soil_moisture_pct (52.55), fertilizer_kg (137.38), field_size_ha (2.15) among all clusters; the lowest avg_temp_c (19.12), cooperative_support (0.00) among all clusters; its strongest difference is avg_temp_c=19.12 (about 0.7 standard deviations from the overall mean). | C1: Cluster 1 (A-leaning farms) has; the highest avg_temp_c (19.13), cooperative_support (1.00) among all clusters; the lowest rainfall_mm (994.67), soil_moisture_pct (48.59), fertilizer_kg (124.99), field_size_ha (2.05) among all clusters; its strongest difference is rainfall_mm=994.67 (about 0.7 standard deviations from the overall mean). Clusters describe growing conditions only; they are not yield or risk predictions and must be reviewed by the field officer before any action.",
+  "interpretation": "Silhouette scores -> K=2 (0.1573), K=3 (0.1348), K=4 (0.1431), K=5 (0.1395), K=6 (0.1396). Selected K=2. C0: Cluster 0 (A-leaning farms):; the highest rainfall_mm (1015.53), soil_moisture_pct (52.55), fertilizer_kg (137.38), field_size_ha (2.15) among all clusters; the lowest avg_temp_c (19.12), cooperative_support (0.00) among all clusters; its strongest difference is avg_temp_c=19.12 (about 0.7 standard deviations from the overall mean). | C1: Cluster 1 (A-leaning farms):; the highest avg_temp_c (19.13), cooperative_support (1.00) among all clusters; the lowest rainfall_mm (994.67), soil_moisture_pct (48.59), fertilizer_kg (124.99), field_size_ha (2.05) among all clusters; its strongest difference is rainfall_mm=994.67 (about 0.7 standard deviations from the overall mean). Clusters describe growing conditions only; they are not yield or risk predictions and must be reviewed by the field officer before any action.",
   "dataset_sha256": "a05f4763ec64a6967d3bd49a679c6ae351d143bb1ffe5827fe99e685a66d4474"
 }

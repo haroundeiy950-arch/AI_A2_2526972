@@ -332,7 +332,7 @@ def build_report(
         )
     )
     story.append(Spacer(1, 6))
-    story.append(Paragraph("Valid request/response (examples/valid.json):", SMALL))
+    story.append(Paragraph("Valid request/response (samples/valid.json):", SMALL))
     story.append(
         Paragraph(
             '{"rainfall_mm": 950.0, "avg_temp_c": 18.5, "soil_moisture_pct": 55.0, '

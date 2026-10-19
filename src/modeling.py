@@ -301,7 +301,7 @@ def _plain_profile(row: pd.Series, cluster_id: int, centers: pd.DataFrame, seaso
     driver_z = float(z[driver])
     driver_value = float(row[driver])
 
-    parts = [f"Cluster {cluster_id} ({season}-leaning farms) has"]
+    parts = [f"Cluster {cluster_id} ({season}-leaning farms):"]
     if highs:
         parts.append("the highest " + ", ".join(highs) + " among all clusters")
     if lows:
