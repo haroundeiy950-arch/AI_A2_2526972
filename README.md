@@ -117,7 +117,7 @@ out-of-range value, unknown field).
 ## Repository
 
 * URL: `TODO_FILL_REPOSITORY_URL`
-* Final commit hash: `TODO_FILL_COMMIT_HASH`
+* Final commit hash: `4bb42e6da4d231c41b3f9cb4952978ddad03af2e` (commit containing all code, models and artifacts)
 
 ## Package layout
 
