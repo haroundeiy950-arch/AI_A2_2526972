@@ -1,14 +1,11 @@
 """Data generation, validation and reproducibility tests."""
 from __future__ import annotations
 
-import numpy as np
-import pandas as pd
 import pytest
 
 from src import config, generate_data
 from src.validate import (
     DataValidationError,
-    clean,
     validate_dataset,
     validate_seed,
     validate_student_id,

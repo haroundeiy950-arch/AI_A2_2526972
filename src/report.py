@@ -77,7 +77,6 @@ def build_report(
 
     reg_selected = regression.get("selected_model", "?")
     clf_selected = classification.get("selected_model", "?")
-    reg_scores = regression.get("all_models", {}).get(reg_selected, {})
     clf_scores = classification.get("all_models", {}).get(clf_selected, {})
 
     story: list = []
