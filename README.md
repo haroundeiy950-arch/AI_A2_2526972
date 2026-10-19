@@ -1,8 +1,8 @@
-**Haroun Mohammed Arbab Yousef** · registration **25/26972** · institutional username **ug2526972@ines.ac.rw** · verification code **AI-A2-6972**
+**Haroun Mohammed Arbab Yousef** | registration **25/26972** | institutional username **ug2526972@ines.ac.rw** | verification code **AI-A2-6972**
 
 # Musanze Harvest Intelligence Service
 
-**Individual Assignment 2 — SWE 3513 Artificial Intelligence**
+**Individual Assignment 2 - SWE 3513 Artificial Intelligence**
 
 | | |
 |---|---|
@@ -87,7 +87,7 @@ evidence/                                   demo video, test log, declaration, A
 |---|---|---|---|
 | Regression (`yield_tons`) | mean, MAE 2.6024 | **linear_regression** | MAE 0.895, RMSE 1.1486, R2 0.8645 |
 | Classification (`high_risk`) | majority, F1 0.0 | **logistic_regression** | precision 0.9259, recall 1.0, F1 0.9615, ROC-AUC 0.995 |
-| Clustering | — | **KMeans K=2** | silhouette 0.1573 |
+| Clustering | - | **KMeans K=2** | silhouette 0.1573 |
 
 Linear/logistic models win because the generator is an explicit linear formula plus small Gaussian
 noise; the random forests cannot extrapolate that continuous trend and split it into steps.
@@ -96,9 +96,9 @@ noise; the random forests cannot extrapolate that continuous trend and split it 
 
 Start `uvicorn app:app --host 127.0.0.1 --port 8000`, then:
 
-* `GET /health` → identity, seed and `model_loaded`.
-* `GET /model-info` → selected models, metrics, features and intended-use statement.
-* `POST /predict` → typed body with the seven features; returns yield, risk flag, probability and cluster.
+* `GET /health` -> identity, seed and `model_loaded`.
+* `GET /model-info` -> selected models, metrics, features and intended-use statement.
+* `POST /predict` -> typed body with the seven features; returns yield, risk flag, probability and cluster.
 
 ```powershell
 curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d "{\"rainfall_mm\":950,\"avg_temp_c\":18.5,\"soil_moisture_pct\":55,\"fertilizer_kg\":120,\"field_size_ha\":1.8,\"season\":\"A\",\"cooperative_support\":1}"
@@ -120,9 +120,9 @@ out-of-range value, unknown field).
 
 * URL: `TODO_FILL_REPOSITORY_URL`
 * Commit history:
-  * `4bb42e6da4d231c41b3f9cb4952978ddad03af2e` — full system: code, models, artifacts, report
-  * `74518e70e064325ba993facaa3779f4732ef7498` — documents the system commit in this README
-  * later commits — run `git log --oneline` (a commit cannot contain its own hash)
+  * `4bb42e6da4d231c41b3f9cb4952978ddad03af2e` - full system: code, models, artifacts, report
+  * `74518e70e064325ba993facaa3779f4732ef7498` - documents the system commit in this README
+  * later commits - run `git log --oneline` (a commit cannot contain its own hash)
 
 ## Package layout
 

@@ -1,6 +1,6 @@
-# AI use disclosure — AI-A2-6972
+# AI use disclosure - AI-A2-6972
 
-Student: Haroun Mohammed Arbab Yousef (25/26972) — ug2526972@ines.ac.rw
+Student: Haroun Mohammed Arbab Yousef (25/26972) - ug2526972@ines.ac.rw
 
 ## Tools used
 
@@ -11,7 +11,7 @@ Student: Haroun Mohammed Arbab Yousef (25/26972) — ug2526972@ines.ac.rw
 
 ## What the assistant did NOT do
 
-- It did not choose the registration number, seed (6972) or verification code (AI-A2-6972) — those are mine.
+- It did not choose the registration number, seed (6972) or verification code (AI-A2-6972) - those are mine.
 - It did not present the results as real-world evidence: the dataset is synthetic by construction.
 - It did not replace my understanding: I ran `run_all.py`, `predict.py`, `uvicorn app:app` and `pytest -q`
   myself, read the metrics JSON files, inspected the three plots and wrote the interpretation of the

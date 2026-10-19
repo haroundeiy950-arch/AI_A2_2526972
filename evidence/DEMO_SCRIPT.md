@@ -1,4 +1,4 @@
-# Demo video script — AI_A2_2526972 (2 minutes, unedited, voice required)
+# Demo video script - AI_A2_2526972 (2 minutes, unedited, voice required)
 
 Say your name, **Haroun Mohammed Arbab Yousef**, registration **25/26972** and code
 **AI-A2-6972** in the recording. Keep the terminal clock visible at the start or end.
@@ -11,10 +11,10 @@ Say your name, **Haroun Mohammed Arbab Yousef**, registration **25/26972** and c
 | 4 | Open one metrics JSON and one plot, explain ONE result without reading | `artifacts/classification_metrics.json` + `artifacts/plots/confusion_matrix.png` | 0:50-1:15 |
 | 5 | CLI: valid record then the deliberately invalid one | `python predict.py --json samples/valid.json` then `... invalid.json` (expect ERROR, exit 1) | 1:15-1:30 |
 | 6 | FastAPI docs, call /health and /predict, show one 422 | `uvicorn app:app --port 8000` then `http://127.0.0.1:8000/docs` | 1:30-1:50 |
-| 7 | Tests pass, then report + declaration, end on clock | `pytest -q` then open `docs/…_REPORT.pdf`, `evidence/…_DECLARATION.pdf` | 1:50-2:00 |
+| 7 | Tests pass, then report + declaration, end on clock | `pytest -q` then open `docs/..._REPORT.pdf`, `evidence/..._DECLARATION.pdf` | 1:50-2:00 |
 
 One result you can explain in your own words (from this machine):
 
 > "The logistic regression flags 25 of the 25 truly high-risk farms and gets 22 of 24 normal
-> farms right — F1 0.9615, ROC-AUC 0.995. The two false positives are farms sitting right on
+> farms right - F1 0.9615, ROC-AUC 0.995. The two false positives are farms sitting right on
 > the median yield-per-hectare line, so their label flips with the random noise."
