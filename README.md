@@ -1,3 +1,5 @@
+**Haroun Mohammed Arbab Yousef** · registration **25/26972** · institutional username **ug2526972@ines.ac.rw** · verification code **AI-A2-6972**
+
 # Musanze Harvest Intelligence Service
 
 **Individual Assignment 2 — SWE 3513 Artificial Intelligence**
